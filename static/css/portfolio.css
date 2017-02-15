@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Domine|Montserrat:400,700');
+html,body {
+    height:100%
+}
+body {
+    font-family:'Domine',sans-serif;
+    font-size:1.5em;
+    line-height:1.5em;
+    background:url('../img/bg-pattern.png') repeat;
+    color:#fff;
+    font-weight:400
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #4C4846;
+    z-index: 999;
+}
+
+.fl-arvore-pai{
+    margin: 25% auto;
+    width: 80px;
+    text-align: center;
+}
+
+.fl-arvore-pai .fl-filho {
+    width: 20px;
+    height: 20px;
+    background-color: #9FD8CB;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: fl-arvore-pai 1.4s ease-in-out 0s infinite both;
+    animation: fl-arvore-pai 1.4s ease-in-out 0s infinite both;
+}
+
+.fl-arvore-pai .fl-filho1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.fl-arvore-pai .fl-filho2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+.home{
+    height:100%;
+}
+
+.logo, .logo:hover {
+    color: #9FD8CB !important;
+}
+
+.logo, .logo:hover {
+    font-size: 22px;
+    text-shadow: 1px 1px 2px #9FD8CB;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.menu_principal {
+    background: rgba(76, 72, 70, .3);
+    border-color: transparent;
+    border-radius: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    z-index: 10;
+}
+
+.menu_principal .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    color: #9FD8CB;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background:transparent !important;
+    color:#9FD8CB !important
+}
+
+.menu_principal .navbar-nav>li>a:hover, .main_menu .navbar-nav>li>a:focus {
+    color:#9FD8CB !important
+}
+
+.menu_principal .navbar-toggle {
+    border-color: #9FD8CB;
+}
+
+.menu_principal .navbar-toggle .icon-bar {
+    background: #9FD8CB;
+}
+
+.menu_principal .navbar-toggle:focus, .main_menu .navbar-toggle:hover {
+    background:transparent
+}
+
+.navbar-default .navbar-collapse {
+    border-color: #464240;
+}
+
+

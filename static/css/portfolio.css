@@ -216,16 +216,85 @@ a:hover {
     margin-top:10px
 }
 
+.sobre_conteudo h2 {
+    color:#9fd8cb
+}
+
+.sobre_btn {
+    border:1px solid #ddd;
+    padding:10px 15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:inline-block;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    overflow:hidden
+}
+
+.sobre_conteudo .nav-tabs {
+    border-color:transparent
+}
+.sobre_conteudo .nav-tabs>li>a {
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out
+}
+.sobre_conteudo .nav-tabs>li>a:hover {
+    color:#4c4846;
+    border-radius:0px
+}
+.sobre_conteudo .nav-tabs>li.active>a, .sobre_conteudo .nav-tabs>li.active>a:focus, .sobre_conteudo .nav-tabs>li.active>a:hover {
+    background:#cacfd6;
+    border-color:transparent !important;
+    border:1px solid transparent !important;
+    border-radius:0px
+}
+.sobre_conteudo .tab-content>.tab-pane {
+    border:1px solid #ddd;
+    padding:10px 15px
+}
+
+.sobre_social a {
+    display:inline-block;
+    width:30px;
+    height:30px;
+    line-height:2em;
+    padding-left: .6em;
+    border:1px solid;
+    margin-top:2em;
+    margin-right: .5em;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out
+}
+.sobre_social a:hover, .sobre_social a:focus {
+    background:#D6E5E3;
+    border-color:#D6E5E3;
+    outline:1px solid #D6E5E3;
+    outline-offset:3px
+}
+.sobre_social a:hover i, .sobre_social a:focus i {
+    color:#4c4846
+}
+
 .sobre_imagem {
     margin:auto
 }
 
 .sobre_imagem img {
-    width:100%;
+    width:80%;
     -webkit-transition:filter 1s linear;
     -moz-transition:filter 1s linear;
     -o-transition:filter 1s linear;
-    transition:filter 1s linear
+    transition:filter 1s linear;
+
 }
 
 .sobre_imagem img:hover {
